@@ -1,0 +1,37 @@
+package ClassAssignment;
+
+import java.util.Scanner;
+
+public class MaxOfTwoNumbers {
+	
+	
+
+	public static void main(String[] args) {
+		
+		// Create a Scanner object for input
+        Scanner scanner = new Scanner(System.in);
+        
+     // Input two numbers
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+        
+     // Find the maximum of the two numbers
+        int max = (num1 > num2) ? num1 : num2;
+
+        // Print the result
+        System.out.println("The maximum of the two numbers is: " + max);
+
+        // Close the scanner
+        scanner.close();
+	}
+}
+
+
+
+
+Output
+Enter the first number: 2
+Enter the second number: 8
+The maximum of the two numbers is: 8 
